@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="Styles.css">
+  <title>Shubham Kumar</title>
+</head>
+<body>
+  <div id="info">        <!-- SECTION-1 INTRO AND NAVIGATION -->
+   <a name="intro"></a>
+    <div id="navi">
+      <img src="img/portfolio1.jpg" align="left">
+      <p><a href="#intro" style="color: rgb(30, 29, 29);">Intro</a></p>
+      <p><a href="#my projects" style="color: rgb(27, 23, 26);">Projects</a></p>
+      <p><a href="#skills" style="color: rgb(33, 30, 30);">Skills</a></p>
+      <p><a href="#contact"style="color: black;" >Contact</a></p>
+      
+    </div>
+    <img src="img/profile.png" height="220" width="150" align="right">
+    <div><br>
+      <h1>Hello!</h1>
+      <h2>I'm <strong>Shubham Kumar,</strong></h2>
+      <span>a first year undergrad student<br></span>
+      <span> at IIT Kharagpur<br></span>
+      <span>in the department of<br></span>
+      <span>Geology and Geophysics<br></span>
+    </div>
+    <br><br><br><br><br>
+  </div>
+  <a name="my projects"></a>
+  <br>
+  <h3>My projects</h3>       <!-- SECTION-II MY PROJECTS using CSS flexbox-->      
+  <div class="project">
+    <div class="top">
+      <div class="innerbox">
+        <img src="img/image1.jpg">
+        <h4>Robotic car</h4>
+        <p>Bluetooth controlled<br>Surface cleaning</p>
+        <button type="button">Visit-></button>
+        <br>
+      </div>
+      <div class="innerbox">
+        <img src="img/image2.jpg">
+        <h4>Webpage <br>on pollution</h4>
+        <p>Using HTML</p>
+        <button type="button">Visit-></button>
+      </div>
+      <div class="innerbox">
+        <img src="img/image3.jpg">
+        <h4>Tinkercad</h4>
+        <p>Fire alarm<br>DIY lab</p>
+        <button type="button">Visit-></button>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="innerbox">
+        <img src="img/image4.jpg">
+        <h4>FreeCAD</h4>
+        <p>Fidget spinner<br>DIY lab</p>
+        <button type="button">Visit-></button>
+      </div>
+      <div class="innerbox">
+        <img src="img/image5.jpg">
+        <h4>Voting <br>awareness</h4>
+        <p>NSS project</p>
+        <button type="button">Visit-></button>
+      </div>
+      <div class="innerbox">
+        <img src="img/image6.jpg">
+        <h4>Climate <br>Changes</h4>
+        <p>NSS project</p>
+        <button type="button">Visit-></button>
+      </div>
+    </div>
+  </div>
+  <div class="skill">
+    <a name="skills"></a>
+    <br>
+    <h3>My Skills and Achievements</h3>  <!-- SECTION-III MY SKILLS using CSS grid-->
+    <div class="grid-topbox">
+      <div class="grid-item inside1">
+        <img src="img/Images5.png">
+        <h4>Time Management</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      </div>
+      <div class="grid-item inside2">
+        <img src="img/Images6.jpg">
+        <h4>Communication</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      </div>
+    </div>
+    <div class="grid-middlebox">
+      <div class="grid-item inside1">
+        <img src="img/Images7.jpg">
+        <h4>Decision Making</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      </div>
+      <div class="grid-item inside2">
+        <img src="img/Images4.jpg">
+        <h4>Team work</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      </div>
+      <div class="grid-item inside3">
+        <img src="img/Images2.jpg">
+        <h4>Coding C and C++</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      </div>
+    </div> 
+    <div class="grid-bottombox">
+      <div class="grid-item inside1">
+        <img src="img/Images3.1.jpg">
+        <h4>Games</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      </div>
+      <div class="grid-item inside2">
+        <img src="img/Images1.png">
+        <h4>Web development</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+      </div>
+    </div>       
+  </div>
+  <a name="contact"></a><br><br>
+  <h3 class="contact form">Contact Form</h3>   <!-- SECTION-IV CONTACT ME -->
+  <section class="contact">
+  <img src="img/Background0.jpg" align="left" height="210" width="500">
+  </section>
+  <div>
+    <form class="contacts">
+      <label for="username"></label>
+      <input type="text" id="username" placeholder="Name"> <br><br>
+      <label for="email"></label>
+      <input type="email" id="email" placeholder="Email id">  
+      <br><br>
+      <label for="doa">Date for appointment: </label>
+      <input type="date" id="doa">
+      <br><br>
+      <label for="message"></label>
+      <textarea name="bio" id="message" cols="20" rows="3" placeholder="your message here..."></textarea> 
+      <input type="submit" value="Submit form">          
+    </form>
+  </div>
+</body>
+</html>
